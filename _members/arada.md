@@ -1,5 +1,5 @@
 ---
-name: Angelika Arada
+name: Jia Ji
 startdate: [2021-05-03]
 enddate: [2022-07-31]
 image: /static/img/members/arada.JPG #365 x 365 pixels, 72 dpi, JPG

@@ -1,5 +1,5 @@
 ---
-name: Pooja Asthana, Ph.D.
+name: Eric Wang 
 startdate: [2021-09-01]
 enddate: [2025-08-31]
 image: /static/img/members/asthana.jpg #365 x 365 pixels, 72 dpi

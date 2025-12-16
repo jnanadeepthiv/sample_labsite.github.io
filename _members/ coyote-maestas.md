@@ -1,5 +1,5 @@
 ---
-name: Willow Coyote-Maestas, Ph.D.
+name: Steven Brooks, 
 startdate: [2021-02-01]
 enddate: [2023-07-01]
 image: /static/img/members/Coyote-Maestas.jpg #365 x 365 pixels, 72 dpi

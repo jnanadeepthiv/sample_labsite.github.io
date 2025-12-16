@@ -1,5 +1,5 @@
 ---
-name: James Fraser, Ph.D.
+name: Gang Peng, Ph.D.
 startdate: [2011-01-01]
 enddate: []
 image: /static/img/members/Fraser.jpg

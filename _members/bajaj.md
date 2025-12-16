@@ -1,5 +1,5 @@
 ---
-name: Priyanka Bajaj, Ph.D.
+name: Jnana Deepthi Vishnumolakala.
 timeline_name: #Fill this out if you'd like your name to appear differently on the Timeline.
 startdate: [2022-10-01]
 enddate: #[YYYY-MM-DD]
