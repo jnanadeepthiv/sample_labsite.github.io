@@ -2,7 +2,7 @@
 name: Eric Wang 
 startdate: [2021-09-01]
 enddate: [2025-08-31]
-image: /static/img/members/boy_2.jpg #365 x 365 pixels, 72 dpi
+image: {{ site.baseurl }}/static/img/members/DrPeng.jpeg
 position: Postdoctoral Scholar
 subsequent:  "Intern, Innovation Ventures, UCSF"
 pronouns: she/her/hers #personal pronouns

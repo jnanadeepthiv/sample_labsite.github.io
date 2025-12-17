@@ -2,7 +2,7 @@
 name: Gang Peng, Ph.D.
 startdate: [2011-01-01]
 enddate: []
-image: /static/img/members/DrPeng.jpeg
+image: {{ site.baseurl }}/static/img/members/DrPeng.jpeg
 # altimage: /static/img/members/Fraser_pb.jpg
 position: Principal Investigator
 #current:

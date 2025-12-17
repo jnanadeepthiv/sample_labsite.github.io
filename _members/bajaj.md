@@ -1,9 +1,8 @@
 ---
 name: Jnana Deepthi Vishnumolakala.
-timeline_name: #Fill this out if you'd like your name to appear differently on the Timeline.
-startdate: [2022-10-01]
+startdate: [2025-10-01]
 enddate: #[YYYY-MM-DD]
-image: /static/img/members/girl_2.jpg #365 x 365 pixels, 72 dpi
+image: {{ site.baseurl }}/static/img/members/DrPeng.jpeg
 position: Postdoctoral Scholar
 #subsequent:  update once you become an alumnus
 pronouns: she/her/hers #personal pronouns

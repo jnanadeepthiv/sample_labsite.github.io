@@ -3,6 +3,7 @@ title: Join the Peng Lab
 layout: default
 group: join
 ---
+<div class="mx-auto" style="max-width: 800px; padding: 2rem 1rem;">
 
 # Join the Peng Lab
 Our lab welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative lab environment.
