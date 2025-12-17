@@ -1,15 +1,22 @@
 {% include header.html %}
-<div class="container px-2 max-width: 100%">
-    <img class="img-fluid mx-auto d-block" src="{{ site.baseurl }}/static/img/logo/Fraser-Research-Group.jpg" alt="Peng Research group at IUSM">
-    <div class="row">
-        <div class="col-sm-8">
-    	    <div class="jumbotron h-100">
-        	    {{ content }}
-            </div>
-        </div>
-        <div class="col">
-            {% include contact_sidebar.html %}
-        </div>
+
+<!-- Full-width banner image -->
+<img class="img-fluid w-100"
+     src="{{ site.baseurl }}/static/img/logo/Fraser-Research-Group.jpg"
+     alt="Peng Research group at IUSM">
+
+<!-- Main content container -->
+<div class="container px-2">
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="jumbotron h-100">
+        {{ content }}
+      </div>
     </div>
+    <div class="col">
+      {% include contact_sidebar.html %}
+    </div>
+  </div>
 </div>
+
 {% include footer.html %}
