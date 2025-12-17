@@ -33,16 +33,6 @@ group: home
     of stress-responsive signaling in etiologically diverse diseases.
   </p>
 
-  <!-- Hero / Featured Figure -->
-  <div class="d-flex justify-content-center mt-5">
-    <figure class="text-center">
-      <img 
-        src="{{ site.baseurl }}/static/img/logo/Sample_workflow.png"
-        alt="Research"
-        class="img-fluid rounded shadow-sm"
-        style="max-width: 800px;">
-    </figure>
-  </div>
 
   <p class="text-center mb-0 mt-4">
     <strong>Location:</strong> HITS Building, 410 W 10th St, Indianapolis, IN
