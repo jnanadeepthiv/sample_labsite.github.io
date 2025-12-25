@@ -10,16 +10,6 @@ group: contact
 
 <div class="row mt-4 gx-10">
 
-<div class="col-md-4 mb-4">
-<h4>Lab Location</h4>
-<a href="https://medicine.iu.edu" target="_blank">
-Department of Medical and Molecular Genetics,  
-Indiana University School of Medicine (IUSM)
-</a><br>
-HITS Building,<br>
-410 W 10th St,<br>
-Indianapolis, IN 
-</div>
 
 <div class="col-md-4 mb-4">
 <h4>Gang Peng, Ph.D.</h4>
@@ -63,7 +53,7 @@ Indianapolis, IN <br>
 
 
 
-<div class="ratio mb-3" style="--bs-aspect-ratio: 70%;">
+<div class="ratio mb-3">
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.122661349147!2d-86.16955912320681!3d39.7818025715489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50cf0555b231%3A0xcd0b5c5176867edf!2sIU%20Health%20Information%20and%20Translational%20Sciences!5e0!3m2!1sen!2sus!4v1765946184975!5m2!1sen!2sus"
     width="100%"         
