@@ -11,14 +11,14 @@ group: contact
 <div class="row mt-4">
 
 <div class="col-md-4 mb-4">
-<h4>Lab Area</h4>
+<h4>Lab Location</h4>
 <a href="https://medicine.iu.edu" target="_blank">
 Department of Medical and Molecular Genetics,  
 Indiana University School of Medicine (IUSM)
 </a><br>
-MS 502<br>
-MMGE<br>
-Indianapolis, IN
+HITS Building,<br>
+410 W 10th St,<br>
+Indianapolis, IN 
 </div>
 
 <div class="col-md-4 mb-4">
@@ -33,10 +33,11 @@ Department of Bioengineering and Therapeutic Sciences
 <a href="https://mc-34647c8d-0ad3-4e6c-832a-7092-cd.azurewebsites.net/research-centers/computational-biology-bioinformatics" target="_blank">
 Center for Computational Biology and Bioinformatics
 </a><br>
-MS 502<br>
-MMGE<br>
-Indianapolis, IN<br>
-<strong>Tel:</strong> 415-502-1863
+HITS Building,<br>
+410 W 10th St,<br>
+Indianapolis, IN <br>
+<b>Email</b> gangpeng@iu.edu <br>
+<strong>Telephone:</strong> 415-502-1863
 </div>
 
 </div>
@@ -49,25 +50,26 @@ Indianapolis, IN<br>
 <h4>Lab Location</h4>
 
 <p>
-<strong>HITS Building</strong><br>
-410 W 10th St<br>
-Indianapolis, IN<br>
-<a href="https://www.google.com/maps?q=HITS+Building+410+W+10th+St+Indianapolis+IN"
-   target="_blank">
-View on Google Maps →
-</a>
-
-<div class="embed-responsive embed-responsive-16by9 mb-3">
-        <iframe
-          class="embed-responsive-item"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.122661349147!2d-86.16955912320681!3d39.7818025715489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50cf0555b231%3A0xcd0b5c5176867edf!2sIU%20Health%20Information%20and%20Translational%20Sciences!5e0!3m2!1sen!2sus!4v1765946184975!5m2!1sen!2sus"
-          style="border:0;"
-          allowfullscreen
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-</div>
+  <strong>HITS Building</strong><br>
+  410 W 10th St<br>
+  Indianapolis, IN<br>
+  <a href="https://www.google.com/maps?q=HITS+Building+410+W+10th+St+Indianapolis+IN"
+     target="_blank">
+    View on Google Maps →
+  </a>
 </p>
+
+<!-- Google Map (Bootstrap 5 compatible) -->
+<div class="ratio mb-3" style="--bs-aspect-ratio: 70%;">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.122661349147!2d-86.16955912320681!3d39.7818025715489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50cf0555b231%3A0xcd0b5c5176867edf!2sIU%20Health%20Information%20and%20Translational%20Sciences!5e0!3m2!1sen!2sus!4v1765946184975!5m2!1sen!2sus"
+    style="border:0;"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
 
 </div>
 </div>

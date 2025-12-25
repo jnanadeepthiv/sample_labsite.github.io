@@ -1,7 +1,7 @@
 ---
 name: Jia Ji
 startdate: [2021-05-03]
-enddate: [2022-07-31]
+enddate: #[YYYY-MM-DD]
 image: {{ site.baseurl }}/static/img/members/DrPeng.jpeg
 position: Junior Specialist
 subsequent: Graduate Student - UCSF
