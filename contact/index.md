@@ -6,13 +6,13 @@ group: contact
 
 <div class="mx-auto" style="max-width: 900px; padding: 2rem 1rem;">
 
-<h1>Contact the Peng Lab</h1>
+<h1 class="text-center">Contact the Peng Lab</h1>
 
 <div class="row mt-4 gx-10">
 
 
-<div class="col-md-4 mb-4">
-<h4>Gang Peng, Ph.D.</h4>
+<div class="col-md-4 mb-4 text-center">
+<h4><b>Gang Peng, Ph.D.</b></h4>
 Assistant Professor<br>
 <a href="https://medicine.iu.edu" target="_blank">
 Department of Medical and Molecular Genetics, IUSM
@@ -31,7 +31,6 @@ Indianapolis, IN <br>
 </div>
 
 </div>
-
 
 <hr class="my-4">
 
@@ -57,7 +56,7 @@ Indianapolis, IN <br>
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.122661349147!2d-86.16955912320681!3d39.7818025715489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50cf0555b231%3A0xcd0b5c5176867edf!2sIU%20Health%20Information%20and%20Translational%20Sciences!5e0!3m2!1sen!2sus!4v1765946184975!5m2!1sen!2sus"
     width="100%"         
-    height="450"         
+    height="750"         
     style="border:0;"   
     allowfullscreen="" 
     loading="lazy" 
