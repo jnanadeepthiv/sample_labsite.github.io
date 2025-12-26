@@ -53,7 +53,7 @@ Indianapolis, IN <br>
 <div style="margin: 0 auto; display: flex; justify-content: center;">
   <iframe
     src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.122661349147!2d-86.16955912320681!3d39.7818025715489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50cf0555b231%3A0xcd0b5c5176867edf!2sIU%20Health%20Information%20and%20Translational%20Sciences!5e0!3m2!1sen!2sus!4v1765946184975!5m2!1sen!2sus"
-    width="50%"
+    width="80%"
     height="80%"
     style="border:0;"
     allowfullscreen

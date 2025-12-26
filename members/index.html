@@ -11,7 +11,7 @@ group: members
 .members-wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 3rem;   /* MORE SPACE LEFT & RIGHT */
 }
 
 /* Section titles */
@@ -23,8 +23,8 @@ group: members
 /* Grid layout for photos */
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2.5rem;
   justify-items: center;
 }
 
@@ -33,30 +33,29 @@ group: members
   text-align: center;
 }
 
-/* Image placeholder */
+/* Member images — SQUARE, NO GREY */
 .member-card img {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 50%;
-  background: #eaeaea;
+  border-radius: 0;        /* SQUARE */
 }
 
 /* Name text */
 .member-name {
-  margin-top: 0.6rem;
+  margin-top: 0.7rem;
   font-weight: 500;
 }
 
 /* Alumni list */
 .alumni-list {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
 
 .alumni-list p {
-  margin: 0.4rem 0;
+  margin: 0.5rem 0;
 }
 </style>
 
@@ -76,12 +75,12 @@ group: members
 <div class="member-grid">
   <div class="member-card">
     <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Researcher photo">
-    <div class="member-name">Name 1</div>
+    <div class="member-name">John</div>
   </div>
 
   <div class="member-card">
     <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Researcher photo">
-    <div class="member-name">Name 2</div>
+    <div class="member-name">Jessie</div>
   </div>
 </div>
 
@@ -90,12 +89,12 @@ group: members
 <div class="member-grid">
   <div class="member-card">
     <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="PhD student photo">
-    <div class="member-name">Name 1</div>
+    <div class="member-name">Jia</div>
   </div>
 
   <div class="member-card">
     <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="PhD student photo">
-    <div class="member-name">Name 2</div>
+    <div class="member-name">Sarah</div>
   </div>
 </div>
 
@@ -104,12 +103,12 @@ group: members
 <div class="member-grid">
   <div class="member-card">
     <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Masters student photo">
-    <div class="member-name">Name 1</div>
+    <div class="member-name">Pia</div>
   </div>
 
   <div class="member-card">
     <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Masters student photo">
-    <div class="member-name">Name 2</div>
+    <div class="member-name">Tia</div>
   </div>
 </div>
 
@@ -118,12 +117,12 @@ group: members
 <div class="member-grid">
   <div class="member-card">
     <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Undergraduate student photo">
-    <div class="member-name">Name 1</div>
+    <div class="member-name">Kiran</div>
   </div>
 
   <div class="member-card">
     <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Undergraduate student photo">
-    <div class="member-name">Name 2</div>
+    <div class="member-name">Piyush</div>
   </div>
 </div>
 
