@@ -21,7 +21,7 @@ As the 3rd rotation period comes to a close, we will talk with the year's rotati
 
 ## Postdoctoral Fellows
 
-Inquiries about Postdoctoral positions should be emailed directly to <a href="{{ site.baseurl }}/join/"><b>Dr. Gang Peng</a></b>
+Inquiries about Postdoctoral positions should be emailed directly to <b>Dr. Gang Peng</b>
 
 
 ## Other Visitors
@@ -61,6 +61,6 @@ Our lab warmly welcomes a variety of visitors, including high school students, u
 
 
 
-  <p>If you are interested in any of these positions, please reach out to <a href="{{ site.baseurl }}/join/"><b>Dr. Gang Peng</b></a> with your CV and a brief summary of your research interests. We look forward to hearing from you!</p>
+  <p>If you are interested in any of these positions, please reach out to <b> Dr. Gang Peng</b> with your CV and a brief summary of your research interests. We look forward to hearing from you!</p>
 
 </div>
