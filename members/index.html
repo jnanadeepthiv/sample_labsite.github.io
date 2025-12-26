@@ -4,111 +4,136 @@ layout: members
 group: members
 ---
 
-<h1>Peng Lab Members</h1>
+<h1 class="text-center mb-5">Peng Lab Members</h1>
 
-<p>
-The Peng lab welcomes people of any race, ethnicity, religion, national origin,
-gender identity, gender expression, caregiver and family commitments,
-political affiliation, sexual orientation, and eligible age or disability status.
-</p>
+<style>
+/* Page container */
+.members-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 
-{% for member in site.members %}
+/* Section titles */
+.members-wrapper h2 {
+  text-align: center;
+  margin: 3rem 0 1.5rem;
+}
 
-{% unless member.enddate == empty or member.startdate.size != member.enddate.size %}
-  {% continue %}
-{% endunless %}
+/* Grid layout for photos */
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
 
-{% if member.position contains "Affiliate" or member.position contains "Visiting" %}
-  {% continue %}
-{% endif %}
+/* Individual member card */
+.member-card {
+  text-align: center;
+}
 
-<hr>
+/* Image placeholder */
+.member-card img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #eaeaea;
+}
 
-<div id="{{ member.name }}" class="row" style="padding-top: 60px; margin-top: -60px;">
-  <div class="col-sm-4">
-    <img class="img-fluid"
-         src="{{ member.image | relative_url }}"
-         {% if member.altimage %}
-         onmouseover="this.src='{{ member.altimage | relative_url }}';"
-         onmouseout="this.src='{{ member.image | relative_url }}';"
-         {% endif %}
-         alt="{{ member.name }}"
-         width="365"
-         height="365"><br>
+/* Name text */
+.member-name {
+  margin-top: 0.6rem;
+  font-weight: 500;
+}
 
-    <strong>{{ member.name }}</strong><br>
+/* Alumni list */
+.alumni-list {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-    {% if member.pronouns %}
-      <em>{{ member.pronouns }}</em><br>
-    {% endif %}
+.alumni-list p {
+  margin: 0.4rem 0;
+}
+</style>
 
-    {{ member.position | markdownify | remove: '<p>' | remove: '</p>' }}<br>
-    <em>{{ member.email }}</em><br>
+<div class="members-wrapper">
 
-    {% if member.website %}
-      <a style="overflow-wrap: break-word;" href="{{ member.website }}">{{ member.website }}</a><br>
-    {% endif %}
-
-    {% if member.orcid %}
-      <a href="https://orcid.org/{{ member.orcid }}">
-        <img class="inline-block mem-icon" src="{{ '/static/img/logo/orcid_logo.svg' | relative_url }}">
-      </a>
-      {{ member.orcid }}<br>
-    {% endif %}
-
-    {% if member.linkedin %}
-      <a href="https://www.linkedin.com/in/{{ member.linkedin }}">
-        <img class="inline-block mem-icon" src="{{ '/static/img/logo/linkedin_logo.svg' | relative_url }}">
-      </a>
-      {{ member.linkedin }}<br>
-    {% endif %}
-
-    {% if member.scholar %}
-      <a href="https://scholar.google.com/citations?user={{ member.scholar }}">
-        <img class="inline-block mem-icon" src="{{ '/static/img/logo/gscholar_logo.svg' | relative_url }}">
-      </a>
-      {% if member.timeline_name %}
-        {{ member.timeline_name }}
-      {% else %}
-        {{ member.name | split: " " | first }}
-      {% endif %}'s Citations<br>
-    {% endif %}
-
-    {% if member.nih %}
-      <a href="https://www.ncbi.nlm.nih.gov/myncbi/{{ member.nih }}/bibliography/public/">
-        <img class="inline-block mem-icon" src="{{ '/static/img/logo/nih_logo.svg' | relative_url }}">
-      </a>
-      Publications<br>
-    {% endif %}
-
-    {% if member.twitter %}
-      <a href="https://twitter.com/{{ member.twitter }}">
-        <img class="inline-block mem-icon" src="{{ '/static/img/logo/twitter_logo.svg' | relative_url }}">
-      </a>
-      @{{ member.twitter }}<br>
-    {% endif %}
-
-    {% if member.bsky %}
-      <a href="https://bsky.app/profile/{{ member.bsky }}">
-        <img class="inline-block mem-icon" src="{{ '/static/img/logo/bsky_logo.svg' | relative_url }}">
-      </a>
-      {{ member.bsky }}<br>
-    {% endif %}
-
-    {% if member.github %}
-      <a href="https://github.com/{{ member.github }}">
-        <img class="inline-block mem-icon" src="{{ '/static/img/logo/github_logo.svg' | relative_url }}">
-      </a>
-      {{ member.github }}<br>
-    {% endif %}
-  </div>
-
-  <div class="col-sm-8">
-    {{ member.description | markdownify }}
+<!-- ================= PI ================= -->
+<h2>Principal Investigator</h2>
+<div class="member-grid">
+  <div class="member-card">
+    <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Gang Peng photo">
+    <div class="member-name">Gang Peng, Ph.D.</div>
   </div>
 </div>
 
-{% endfor %}
+<!-- ================= Bioinformatics Researchers ================= -->
+<h2>Bioinformatics Researchers</h2>
+<div class="member-grid">
+  <div class="member-card">
+    <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Researcher photo">
+    <div class="member-name">Name 1</div>
+  </div>
 
-<hr>
+  <div class="member-card">
+    <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Researcher photo">
+    <div class="member-name">Name 2</div>
+  </div>
+</div>
 
+<!-- ================= PhD Students ================= -->
+<h2>PhD Students</h2>
+<div class="member-grid">
+  <div class="member-card">
+    <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="PhD student photo">
+    <div class="member-name">Name 1</div>
+  </div>
+
+  <div class="member-card">
+    <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="PhD student photo">
+    <div class="member-name">Name 2</div>
+  </div>
+</div>
+
+<!-- ================= Masters Students ================= -->
+<h2>Master’s Students</h2>
+<div class="member-grid">
+  <div class="member-card">
+    <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Masters student photo">
+    <div class="member-name">Name 1</div>
+  </div>
+
+  <div class="member-card">
+    <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Masters student photo">
+    <div class="member-name">Name 2</div>
+  </div>
+</div>
+
+<!-- ================= Undergraduate Students ================= -->
+<h2>Undergraduate Students</h2>
+<div class="member-grid">
+  <div class="member-card">
+    <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Undergraduate student photo">
+    <div class="member-name">Name 1</div>
+  </div>
+
+  <div class="member-card">
+    <img src="{{ site.baseurl }}/static/img/members/DrPeng.jpg" alt="Undergraduate student photo">
+    <div class="member-name">Name 2</div>
+  </div>
+</div>
+
+<!-- ================= Alumni ================= -->
+<h2>Alumni</h2>
+<div class="alumni-list">
+  <p>Name 1</p>
+  <p>Name 2</p>
+  <p>Name 3</p>
+  <p>Name 4</p>
+</div>
+
+</div>
