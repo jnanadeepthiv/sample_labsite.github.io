@@ -29,9 +29,7 @@ group: home
   </p>
 
   <p class="text-center">
-    Research in the lab focuses on defining the 
-    <strong>pathologic and therapeutic implications</strong>
-    of stress-responsive signaling in etiologically diverse diseases.
+    Research in the lab focuses on the development of bioinformatics methods for the analysis of complex biological data, with particular emphasis on <strong>DNA modifications, metabolomics, and aging</strong>. We aim to integrate multi-omics data to better understand the molecular mechanisms underlying gene regulation, metabolic processes, and age-related changes.
   </p>
 
   <p class="text-center mb-0 mt-4">
